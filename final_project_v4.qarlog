@@ -1,0 +1,67 @@
+Quartus II Archive log --	C:/Users/NIUECE5F/Desktop/final_project_v4.qarlog
+
+Archive:	C:/Users/NIUECE5F/Desktop/final_project_v4.qar
+Date:		Wed Dec 18 17:08:26 2019
+Quartus II		10.0 Build 218 06/27/2010 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/b0642074/final_project_v3/MTLC_DEMO.SDC
+C:/b0642074/final_project_v3/MTLC_DEMO.qpf
+C:/b0642074/final_project_v3/MTLC_DEMO.qsf
+C:/b0642074/final_project_v3/MTLC_DEMO.v
+C:/b0642074/final_project_v3/MTLC_DEMO_assignment_defaults.qdf
+C:/b0642074/final_project_v3/arrow.v
+C:/b0642074/final_project_v3/block.v
+C:/b0642074/final_project_v3/bottom_bar.v
+C:/b0642074/final_project_v3/brick.v
+C:/b0642074/final_project_v3/clock_time.v
+C:/b0642074/final_project_v3/coin.v
+C:/b0642074/final_project_v3/counter.v
+C:/b0642074/final_project_v3/flag_1.v
+C:/b0642074/final_project_v3/flag_2.v
+C:/b0642074/final_project_v3/game.v
+C:/b0642074/final_project_v3/grass_1.v
+C:/b0642074/final_project_v3/grass_2.v
+C:/b0642074/final_project_v3/grass_3.v
+C:/b0642074/final_project_v3/ground.v
+C:/b0642074/final_project_v3/hit_question_mark.v
+C:/b0642074/final_project_v3/hitbox.v
+C:/b0642074/final_project_v3/i2c_touch_config.v
+C:/b0642074/final_project_v3/incremental_db/compiled_partitions/MTLC_DEMO.db_info
+C:/b0642074/final_project_v3/map.v
+C:/b0642074/final_project_v3/mario.v
+C:/b0642074/final_project_v3/mario_big.v
+C:/b0642074/final_project_v3/ping_pong.v
+C:/b0642074/final_project_v3/question_mark.v
+C:/b0642074/final_project_v3/seg7_lut.v
+C:/b0642074/final_project_v3/seg7_lut_8.v
+C:/b0642074/final_project_v3/state.v
+C:/b0642074/final_project_v3/touch_control.v
+C:/b0642074/final_project_v3/touch_irq_detector.v
+C:/b0642074/final_project_v3/touch_pll.ppf
+C:/b0642074/final_project_v3/touch_pll.qip
+C:/b0642074/final_project_v3/touch_pll.v
+C:/b0642074/final_project_v3/tube_bl.v
+C:/b0642074/final_project_v3/tube_br.v
+C:/b0642074/final_project_v3/tube_tl.v
+C:/b0642074/final_project_v3/tube_tr.v
+C:/b0642074/final_project_v3/vga_controller.v
+C:/b0642074/final_project_v3/vout_pll.ppf
+C:/b0642074/final_project_v3/vout_pll.qip
+C:/b0642074/final_project_v3/vout_pll.v
+	======= Total: 44 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat Dec 21 21:44:58 2019
+Source archive file:	C:/Users/NIUECE5F/Desktop/final_project_v4.qar
+Archive was extracted into	C:/Users/NIUECE5F/Desktop/final_project_v4_restored/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Sat Dec 21 21:48:44 2019
+Source archive file:	C:/Users/NIUECE5F/Desktop/final_project_v4.qar
+Archive was extracted into	C:/Users/NIUECE5F/Desktop/final_project_v4_restored/
+		 - successfully.

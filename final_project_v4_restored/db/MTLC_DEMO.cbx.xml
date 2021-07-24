@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="MTLC_DEMO">
+		<CBX_INST_ENTRY INSTANCE_NAME="|MTLC_DEMO|game:inst7|bottom_bar:bottom|arrow:left|altsyncram:Ram0_rtl_1" CBX_FILE_NAME="altsyncram_tu61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MTLC_DEMO|game:inst7|bottom_bar:bottom|arrow:right|altsyncram:Ram0_rtl_0" CBX_FILE_NAME="altsyncram_tu61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MTLC_DEMO|touch_pll:u_touch_pll|altpll:altpll_component" CBX_FILE_NAME="touch_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MTLC_DEMO|vout_pll:u_vout_pll|altpll:altpll_component" CBX_FILE_NAME="vout_pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|MTLC_DEMO|game:inst7|bottom_bar:bottom|arrow:top|altsyncram:Ram0_rtl_2" CBX_FILE_NAME="altsyncram_tu61.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

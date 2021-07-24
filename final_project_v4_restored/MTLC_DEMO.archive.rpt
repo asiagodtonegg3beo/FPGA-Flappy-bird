@@ -1,0 +1,116 @@
+Archive Project report for MTLC_DEMO
+Sat Dec 21 21:49:02 2019
+Quartus II Version 10.0 Build 218 06/27/2010 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sat Dec 21 21:49:02 2019 ;
+; Revision Name          ; MTLC_DEMO                             ;
+; Top-level Entity Name  ; MTLC_DEMO                             ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/NIUECE5F/Desktop/final_project_v4_restored/MTLC_DEMO_33333333.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'MTLC_DEMO.archive.rpt'
+Info: Evaluation of Tcl script c:/altera/10.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II Shell was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 206 megabytes
+    Info: Processing ended: Sat Dec 21 21:49:02 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; arrow.v                                              ;
+; block.v                                              ;
+; bottom_bar.v                                         ;
+; brick.v                                              ;
+; clock_time.v                                         ;
+; coin.v                                               ;
+; counter.v                                            ;
+; flag_1.v                                             ;
+; flag_2.v                                             ;
+; game.v                                               ;
+; grass_1.v                                            ;
+; grass_2.v                                            ;
+; grass_3.v                                            ;
+; ground.v                                             ;
+; hit_question_mark.v                                  ;
+; hitbox.v                                             ;
+; i2c_touch_config.v                                   ;
+; incremental_db/compiled_partitions/MTLC_DEMO.db_info ;
+; map.v                                                ;
+; mario.v                                              ;
+; mario_big.v                                          ;
+; MTLC_DEMO.qpf                                        ;
+; MTLC_DEMO.qsf                                        ;
+; MTLC_DEMO.SDC                                        ;
+; MTLC_DEMO.v                                          ;
+; MTLC_DEMO_assignment_defaults.qdf                    ;
+; ping_pong.v                                          ;
+; question_mark.v                                      ;
+; seg7_lut.v                                           ;
+; seg7_lut_8.v                                         ;
+; state.v                                              ;
+; touch_control.v                                      ;
+; touch_irq_detector.v                                 ;
+; touch_pll.ppf                                        ;
+; touch_pll.qip                                        ;
+; touch_pll.v                                          ;
+; tube_bl.v                                            ;
+; tube_br.v                                            ;
+; tube_tl.v                                            ;
+; tube_tr.v                                            ;
+; vga_controller.v                                     ;
+; vout_pll.ppf                                         ;
+; vout_pll.qip                                         ;
+; vout_pll.v                                           ;
++------------------------------------------------------+
+
+

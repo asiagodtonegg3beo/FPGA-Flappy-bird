@@ -1,0 +1,83 @@
+<img src="image.png" id="img" style="">
+<canvas id="canvas" width="5000" height="5000"></canvas>
+<script>
+    window.onload = function () {
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        var img = document.getElementById('img');
+        ctx.drawImage(img, 0, 0);
+
+        var w = img.naturalWidth;
+        var h = img.naturalHeight;
+        var imgdt = ctx.getImageData(0, 0, w, h);
+        var a = imgdt.data;
+
+        let rStr = "10'd0:marior=956'h";
+        let gStr = "10'd0:mariog=956'h";
+        let bStr = "10'd0:mariob=956'h";
+        for (var k = 0; k < a.length; k += 4) {
+            let rh = a[k].toString(16)[0] + "0";
+            let r = parseInt(rh, 16)
+            a[k] = reducePixel(a[k]);  // R
+            a[k + 1] = reducePixel(a[k + 1]);  // G
+            a[k + 2] = reducePixel(a[k + 2]);  // B
+            a[k + 3] = 255;           // A
+	    if(a[k]>=16){
+            	rStr += a[k].toString(16)[0];
+	    } else {
+		rStr += "0";
+            }
+	    if(a[k+1]>=16){
+            	gStr += a[k + 1].toString(16)[0];
+	    } else {
+		gStr += "0";
+            }
+	    if(a[k+2]>=16){
+            	bStr += a[k + 2].toString(16)[0];
+	    } else {
+		bStr += "0";
+            }
+            if ((k / 4 + 1) % (w) == 0) {
+                rStr += ";\n10'd" + ((k / 4 + 1) / w) + ":marior=956'h";
+                gStr += ";\n10'd" + ((k / 4 + 1) / w) + ":mariog=956'h";
+                bStr += ";\n10'd" + ((k / 4 + 1) / w) + ":mariob=956'h";
+            }
+        }
+        console.log(rStr);
+        console.log(gStr);
+        console.log(bStr);
+        canvas.width = w;
+        canvas.height = h;
+        console.log(w, h);
+        let x_count = 0;
+        let str = "";
+        for (var k = 0; k < a.length; k += 4) {
+            a[k] = a[k];  // R
+            if (a[k].toString(16) != "5c") {
+                str += a[k].toString(16);
+            }
+            x_count++;
+            if (x_count == w) {
+                //console.log(str);
+                x_count = 0;
+                str = "";
+            }
+        }
+        ctx.putImageData(imgdt, 0, 0);
+    }
+
+    function reducePixel(a) {
+        let h = "";// = a.toString(16)[0] + "0";
+        //let binary = a.toString(2).substring(0, 8) + "";
+        //console.log(binary);
+        //let p = parseInt(binary, 2);
+
+	 if(a>=16){
+            	h = a.toString(16)[0]+"0";
+        	let p = parseInt(h, 16);
+        	return p;
+	    } else {
+		return 0;
+            }
+    }
+</script>

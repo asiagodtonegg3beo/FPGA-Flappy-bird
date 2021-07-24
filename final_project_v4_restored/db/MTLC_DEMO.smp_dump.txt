@@ -1,0 +1,9 @@
+
+State Machine - |MTLC_DEMO|i2c_touch_config:u_i2c_touch_config|i2c_touch_controller:u_i2c_touch_controller|i2c_state
+Name i2c_state.STOP i2c_state.DATA_R i2c_state.S_ADDR_R i2c_state.R_ADDR_W i2c_state.S_ADDR_W i2c_state.START 
+i2c_state.START 0 0 0 0 0 0 
+i2c_state.S_ADDR_W 0 0 0 0 1 1 
+i2c_state.R_ADDR_W 0 0 0 1 0 1 
+i2c_state.S_ADDR_R 0 0 1 0 0 1 
+i2c_state.DATA_R 0 1 0 0 0 1 
+i2c_state.STOP 1 0 0 0 0 1 

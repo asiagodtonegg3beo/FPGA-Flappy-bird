@@ -1,0 +1,5 @@
+PLL_Name	vout_pll:u_vout_pll|altpll:altpll_component|vout_pll_altpll:auto_generated|pll1
+PLLJITTER	NA
+PLLSPEmax	84
+PLLSPEmin	-53
+

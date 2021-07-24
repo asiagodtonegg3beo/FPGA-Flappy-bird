@@ -1,0 +1,169 @@
+<session jtag_chain="USB-Blaster [USB-0]" jtag_device="@1: EP3C120/EP4CE115 (0x020F70DD)" sof_file="" top_level_entity="DE2_115_D5M_LTM">
+  <display_tree gui_logging_enabled="0">
+    <display_branch instance="auto_signaltap_0" log="USE_GLOBAL_TEMP" signal_set="USE_GLOBAL_TEMP" trigger="USE_GLOBAL_TEMP"/>
+  </display_tree>
+  <instance entity_name="sld_signaltap" is_auto_node="yes" is_expanded="true" name="auto_signaltap_0" source_file="sld_signaltap.vhd">
+    <node_ip_info instance_id="0" mfg_id="110" node_id="0" version="6"/>
+    <position_info>
+      <single attribute="active tab" value="0"/>
+      <single attribute="data vertical scroll position" value="0"/>
+      <single attribute="data horizontal scroll position" value="0"/>
+      <single attribute="zoom level numerator" value="1"/>
+      <single attribute="zoom level denominator" value="1"/>
+      <single attribute="zoom offset numerator" value="130945"/>
+      <single attribute="zoom offset denominator" value="1"/>
+      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="setup horizontal scroll position" value="0"/>
+    </position_info>
+    <signal_set global_temp="1" name="signal_set: 2010/07/21 20:09:41  #0">
+      <clock name="CLOCK_50" polarity="posedge" tap_mode="classic"/>
+      <config ram_type="M4K" reserved_data_nodes="0" reserved_storage_qualifier_nodes="0" reserved_trigger_nodes="0" sample_depth="128" trigger_in_enable="no" trigger_out_enable="no"/>
+      <top_entity/>
+      <signal_vec>
+        <trigger_input_vec>
+          <wire name="auto_start" tap_mode="classic" type="register"/>
+          <wire name="timer[0]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[10]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[11]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[12]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[13]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[14]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[15]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[1]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[2]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[3]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[4]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[5]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[6]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[7]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[8]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[9]" tap_mode="classic" type="output pin"/>
+        </trigger_input_vec>
+        <data_input_vec>
+          <wire name="auto_start" tap_mode="classic" type="register"/>
+          <wire name="timer[0]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[10]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[11]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[12]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[13]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[14]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[15]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[1]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[2]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[3]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[4]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[5]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[6]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[7]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[8]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[9]" tap_mode="classic" type="output pin"/>
+        </data_input_vec>
+        <storage_qualifier_input_vec>
+          <wire name="auto_start" tap_mode="classic" type="register"/>
+          <wire name="timer[0]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[10]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[11]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[12]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[13]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[14]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[15]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[1]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[2]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[3]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[4]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[5]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[6]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[7]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[8]" tap_mode="classic" type="output pin"/>
+          <wire name="timer[9]" tap_mode="classic" type="output pin"/>
+        </storage_qualifier_input_vec>
+      </signal_vec>
+      <presentation>
+        <data_view>
+          <net is_signal_inverted="no" name="auto_start"/>
+          <bus is_signal_inverted="no" link="all" name="timer" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="timer[0]"/>
+            <net is_signal_inverted="no" name="timer[1]"/>
+            <net is_signal_inverted="no" name="timer[2]"/>
+            <net is_signal_inverted="no" name="timer[3]"/>
+            <net is_signal_inverted="no" name="timer[4]"/>
+            <net is_signal_inverted="no" name="timer[5]"/>
+            <net is_signal_inverted="no" name="timer[6]"/>
+            <net is_signal_inverted="no" name="timer[7]"/>
+            <net is_signal_inverted="no" name="timer[8]"/>
+            <net is_signal_inverted="no" name="timer[9]"/>
+            <net is_signal_inverted="no" name="timer[10]"/>
+            <net is_signal_inverted="no" name="timer[11]"/>
+            <net is_signal_inverted="no" name="timer[12]"/>
+            <net is_signal_inverted="no" name="timer[13]"/>
+            <net is_signal_inverted="no" name="timer[14]"/>
+            <net is_signal_inverted="no" name="timer[15]"/>
+          </bus>
+        </data_view>
+        <setup_view>
+          <net is_signal_inverted="no" name="auto_start"/>
+          <bus is_signal_inverted="no" link="all" name="timer" order="lsb_to_msb" radix="unsigned_dec" state="collapse" type="output pin">
+            <net is_signal_inverted="no" name="timer[0]"/>
+            <net is_signal_inverted="no" name="timer[1]"/>
+            <net is_signal_inverted="no" name="timer[2]"/>
+            <net is_signal_inverted="no" name="timer[3]"/>
+            <net is_signal_inverted="no" name="timer[4]"/>
+            <net is_signal_inverted="no" name="timer[5]"/>
+            <net is_signal_inverted="no" name="timer[6]"/>
+            <net is_signal_inverted="no" name="timer[7]"/>
+            <net is_signal_inverted="no" name="timer[8]"/>
+            <net is_signal_inverted="no" name="timer[9]"/>
+            <net is_signal_inverted="no" name="timer[10]"/>
+            <net is_signal_inverted="no" name="timer[11]"/>
+            <net is_signal_inverted="no" name="timer[12]"/>
+            <net is_signal_inverted="no" name="timer[13]"/>
+            <net is_signal_inverted="no" name="timer[14]"/>
+            <net is_signal_inverted="no" name="timer[15]"/>
+          </bus>
+        </setup_view>
+      </presentation>
+      <trigger CRC="FDC0C7AA" attribute_mem_mode="false" gap_record="true" global_temp="1" name="trigger: 2010/07/21 20:17:22  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="1" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_in="dont_care" trigger_out="active high" trigger_type="circular">
+        <power_up_trigger position="pre" storage_qualifier_disabled="no" trigger_in="dont_care" trigger_out="active high"/>
+        <events use_custom_flow_control="no">
+          <level enabled="yes" name="condition1" type="basic">'timer[0]' == low &amp;&amp; 'timer[10]' == low &amp;&amp; 'timer[11]' == high &amp;&amp; 'timer[12]' == low &amp;&amp; 'timer[13]' == high &amp;&amp; 'timer[14]' == high &amp;&amp; 'timer[15]' == high &amp;&amp; 'timer[1]' == low &amp;&amp; 'timer[2]' == low &amp;&amp; 'timer[3]' == low &amp;&amp; 'timer[4]' == low &amp;&amp; 'timer[5]' == high &amp;&amp; 'timer[6]' == high &amp;&amp; 'timer[7]' == low &amp;&amp; 'timer[8]' == low &amp;&amp; 'timer[9]' == high
+            <power_up enabled="yes">
+            </power_up>
+            <op_node/>
+          </level>
+        </events>
+        <storage_qualifier_events>
+          <transitional>00000000000000000
+            <pwr_up_transitional>00000000000000000
+            </pwr_up_transitional>
+          </transitional>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+          <storage_qualifier_level type="basic">
+            <power_up>
+            </power_up>
+            <op_node/>
+          </storage_qualifier_level>
+        </storage_qualifier_events>
+        <log>
+          <data global_temp="1" name="log: 2010/07/21 20:51:34  #0"/>
+          <extradata/>
+        </log>
+      </trigger>
+    </signal_set>
+  </instance>
+  <mnemonics/>
+  <static_plugin_mnemonics/>
+  <global_info>
+    <single attribute="active instance" value="0"/>
+    <single attribute="lock mode" value="36110"/>
+    <multi attribute="window position" size="9" value="1600,805,398,124,0,50,124,0,0"/>
+  </global_info>
+</session>

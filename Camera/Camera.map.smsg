@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at camera.v(458): object "LCD_R" differs only in case from object "lcd_r" in the same scope
+Info (10281): Verilog HDL Declaration information at camera.v(453): object "LCD_G" differs only in case from object "lcd_g" in the same scope
+Info (10281): Verilog HDL Declaration information at camera.v(451): object "LCD_B" differs only in case from object "lcd_b" in the same scope
